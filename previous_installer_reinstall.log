@@ -1,0 +1,254 @@
+IFW Version: 4.7.0, built with Qt 6.6.0.
+Build date: Feb 15 2024
+Installer Framework SHA1: fad83b7a8ba6a9e3179236d11bba0ceb9b3de5b4
+[0] Arguments: ./trik-studio-offline-linux-gnu64-installer-2023.1-6-gd06676.run, -dd
+[0] Resource tree:
+[0]      :/uninstall.png
+[0]      :/installer.png
+[0]      :/installer.ico
+[0]      :/keepinstalled.png
+[0]      :/installer.icns
+[0]      :/install.png
+[0]      :/keepuninstalled.png
+[0]      :/qpdf
+[0]      :/qpdf/qpdfa_metadata.xml
+[0]      :/qpdf/sRGB2014.icc
+[1] Operations sanity check succeeded.
+[1] Warning: Could not load IFW translation for language "English"
+[1] Using metadata cache from "/home/ntyrreuir/.cache/qt-installer-framework/f9bc0262-152c-3eb5-a9c8-2a318bd7d544"
+[1] Found 0 cached items.
+[1] Language: en-US
+[39] Loaded control script ":/metadata/installer-config/___controlScript_qs.qs"
+[39] Using control script: ":/metadata/installer-config/___controlScript_qs.qs"
+[1559] Fetching latest update information...
+[1563] Url is: "://metadata/"
+[1566] Loading component scripts...
+[1569] Warning: :75:37 Variable "Dir" is used before its declaration at 107:5.
+[1594] Warning: Component ru.qreal.root contains data to be installed while having child components. This may not work properly.
+[1594] Warning: Component ru.qreal.root.trik.core contains data to be installed while having child components. This may not work properly.
+[1594] Warning: Component ru.qreal.root.trik.core specifies "Default" property while not being a leaf node. The "Default" property will get a "false" value.
+[1594] Warning: Component ru.qreal.root.trik.core specifies "Default" property while being not checkable. The "Default" property will get a "false" value.
+[1594] Warning: Other components depend on component ru.qreal.root.trik.core which has child components. This will not work properly.
+[1594] Warning: Component ru.qreal.root.pioneer contains data to be installed while having child components. This may not work properly.
+[1594] Warning: Component ru.qreal.root.pioneer specifies "Default" property while not being a leaf node. The "Default" property will get a "false" value.
+[1594] Warning: Component ru.qreal.root.ev3 contains data to be installed while having child components. This may not work properly.
+[1594] Warning: Component ru.qreal.root.ev3 specifies "Default" property while not being a leaf node. The "Default" property will get a "false" value.
+[1594] Warning: Component ru.qreal.root.trik.core.v62 specifies "Default" property while being not checkable. The "Default" property will get a "false" value.
+[1596] Control script callback "DynamicTargetWidgetCallback" does not exist.
+[2431] Control script callback "ComponentSelectionPageCallback" does not exist.
+[3030] Loading component scripts...
+[3051] Control script callback "LicenseAgreementPageCallback" does not exist.
+[5047] Selected components without dependencies:
+ru.qreal.root 
+ru.qreal.root.trik_studio_kernel 
+ru.qreal.root.trik 
+ru.qreal.root.ev3 
+ru.qreal.root.pioneer 
+ru.qreal.root.languages 
+ru.qreal.root.associations 
+ru.qreal.root.desktop_shortcut 
+ru.qreal.root.trik.core 
+ru.qreal.root.trik.examples 
+ru.qreal.root.trik.gamepad 
+ru.qreal.root.trik.core.v62 
+ru.qreal.root.ev3.examples 
+ru.qreal.root.pioneer.examples 
+ru.qreal.root.languages.french 
+ru.qreal.root.languages.russian 
+Components that have resolved dependencies:
+ru.qreal.root.trik.python
+[5050] Installation space required: "756.07 MB" Temporary space required: "256.00 MB" Local repository size: "0.00 bytes"
+[5052] Cache and install directories are on the same volume. Volume mount point: "/" Free space available: "9.57 GB"
+[5052] Control script callback "ReadyForInstallationPageCallback" does not exist.
+[5750] Control script callback "PerformInstallationPageCallback" does not exist.
+[5781] backup  operation: Mkdir
+[5781] 	- arguments: /home/ntyrreuir/TRIKStudio
+[5781] Done
+[5781] perform  operation: Mkdir
+[5781] 	- arguments: /home/ntyrreuir/TRIKStudio
+[5781] Done
+[5781] Preparing the installation...
+[5782] Install size: 17 components
+[5796] Preparing to unpack components...
+[5814] backup ru.qreal.root concurrent operation: Extract
+[5814] 	- arguments: installer://ru.qreal.root/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5814] Started
+[5814] backup ru.qreal.root concurrent operation: Extract
+[5814] 	- arguments: installer://ru.qreal.root/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5814] Started
+[5817] backup ru.qreal.root.ev3 concurrent operation: Extract
+[5817] 	- arguments: installer://ru.qreal.root.ev3/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5817] Started
+[5817] backup ru.qreal.root.pioneer concurrent operation: Extract
+[5817] 	- arguments: installer://ru.qreal.root.pioneer/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5817] Started
+[5817] backup ru.qreal.root.trik.examples concurrent operation: Extract
+[5817] 	- arguments: installer://ru.qreal.root.trik.examples/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5817] Started
+[5817] backup ru.qreal.root concurrent operation: Extract
+[5817] 	- arguments: installer://ru.qreal.root/2023.1-6-06676content.7z, /home/ntyrreuir/TRIKStudio/
+[5817] Started
+[5817] backup ru.qreal.root concurrent operation: Extract
+[5817] 	- arguments: installer://ru.qreal.root/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[5817] Started
+[5817] backup ru.qreal.root.trik.core concurrent operation: Extract
+[5817] 	- arguments: installer://ru.qreal.root.trik.core/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[5817] Started
+[5821] backup ru.qreal.root.trik_studio_kernel concurrent operation: Extract
+[5821] 	- arguments: installer://ru.qreal.root.trik_studio_kernel/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5821] Started
+[5821] backup ru.qreal.root.trik_studio_kernel concurrent operation: Extract
+[5821] 	- arguments: installer://ru.qreal.root.trik_studio_kernel/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5821] Started
+[5821] backup ru.qreal.root.trik_studio_kernel concurrent operation: Extract
+[5821] 	- arguments: installer://ru.qreal.root.trik_studio_kernel/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[5821] Started
+[5825] backup ru.qreal.root.trik.core concurrent operation: Extract
+[5825] 	- arguments: installer://ru.qreal.root.trik.core/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5825] Started
+[5850] backup ru.qreal.root.trik.gamepad concurrent operation: Extract
+[5850] 	- arguments: installer://ru.qreal.root.trik.gamepad/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[5851] Started
+[5862] backup ru.qreal.root.trik.gamepad concurrent operation: Extract
+[5862] 	- arguments: installer://ru.qreal.root.trik.gamepad/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5862] Started
+[5878] backup ru.qreal.root.trik.core.v62 concurrent operation: Extract
+[5878] 	- arguments: installer://ru.qreal.root.trik.core.v62/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5878] Started
+[5886] backup ru.qreal.root.ev3.examples concurrent operation: Extract
+[5886] 	- arguments: installer://ru.qreal.root.ev3.examples/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5886] Started
+[5890] backup ru.qreal.root.pioneer.examples concurrent operation: Extract
+[5890] 	- arguments: installer://ru.qreal.root.pioneer.examples/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5890] Started
+[5890] backup ru.qreal.root.languages.french concurrent operation: Extract
+[5890] 	- arguments: installer://ru.qreal.root.languages.french/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5890] Started
+[5901] backup ru.qreal.root.languages.russian concurrent operation: Extract
+[5901] 	- arguments: installer://ru.qreal.root.languages.russian/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[5901] Started
+[5901] backup ru.qreal.root.trik.python concurrent operation: Extract
+[5901] 	- arguments: installer://ru.qreal.root.trik.python/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[5901] Started
+[8771] Unpacking components...
+[8772] perform ru.qreal.root concurrent operation: Extract
+[8772] 	- arguments: installer://ru.qreal.root/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8772] Started
+[8772] perform ru.qreal.root.trik.core concurrent operation: Extract
+[8772] 	- arguments: installer://ru.qreal.root.trik.core/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8772] Started
+[8772] perform ru.qreal.root.trik_studio_kernel concurrent operation: Extract
+[8772] 	- arguments: installer://ru.qreal.root.trik_studio_kernel/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8772] Started
+[8772] perform ru.qreal.root.trik_studio_kernel concurrent operation: Extract
+[8772] 	- arguments: installer://ru.qreal.root.trik_studio_kernel/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8772] Started
+[8772] perform ru.qreal.root concurrent operation: Extract
+[8772] 	- arguments: installer://ru.qreal.root/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[8772] Started
+[8773] perform ru.qreal.root.ev3 concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.ev3/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8773] perform ru.qreal.root.trik.examples concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.trik.examples/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8773] perform ru.qreal.root.pioneer concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.pioneer/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8773] perform ru.qreal.root.trik.core concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.trik.core/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8773] perform ru.qreal.root.trik.gamepad concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.trik.gamepad/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8773] perform ru.qreal.root.trik.python concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.trik.python/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8773] perform ru.qreal.root.pioneer.examples concurrent operation: Extract
+[8773] 	- arguments: installer://ru.qreal.root.pioneer.examples/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8773] Started
+[8802] perform ru.qreal.root.ev3.examples concurrent operation: Extract
+[8802] 	- arguments: installer://ru.qreal.root.ev3.examples/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8802] Started
+[8803] perform ru.qreal.root.trik.gamepad concurrent operation: Extract
+[8803] 	- arguments: installer://ru.qreal.root.trik.gamepad/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8803] Started
+[8853] perform ru.qreal.root.trik.core.v62 concurrent operation: Extract
+[8853] 	- arguments: installer://ru.qreal.root.trik.core.v62/2023.1-6-06676lib.7z, /home/ntyrreuir/TRIKStudio/
+[8853] Started
+[8857] perform ru.qreal.root.languages.russian concurrent operation: Extract
+[8857] 	- arguments: installer://ru.qreal.root.languages.russian/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8857] Started
+[8863] perform ru.qreal.root.languages.french concurrent operation: Extract
+[8863] 	- arguments: installer://ru.qreal.root.languages.french/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8863] Started
+[8866] perform ru.qreal.root concurrent operation: Extract
+[8866] 	- arguments: installer://ru.qreal.root/2023.1-6-06676resources.7z, /home/ntyrreuir/TRIKStudio/
+[8866] Started
+[8869] perform ru.qreal.root.trik_studio_kernel concurrent operation: Extract
+[8869] 	- arguments: installer://ru.qreal.root.trik_studio_kernel/2023.1-6-06676bin.7z, /home/ntyrreuir/TRIKStudio/
+[8869] Started
+[8873] perform ru.qreal.root concurrent operation: Extract
+[8873] 	- arguments: installer://ru.qreal.root/2023.1-6-06676content.7z, /home/ntyrreuir/TRIKStudio/
+[8873] Started
+[12278] Installing component TRIK Studio
+[12279] backup ru.qreal.root operation: Execute
+[12279] 	- arguments: /home/ntyrreuir/TRIKStudio//maintenance
+[12279] Done
+[12280] perform ru.qreal.root operation: Execute
+[12280] 	- arguments: /home/ntyrreuir/TRIKStudio//maintenance
+[12280] /home/ntyrreuir/TRIKStudio//maintenance" started, arguments: "
+[12309] [6] Warning: Cannot initialize cache: Cannot obtain the lock for file \\\"/home/ntyrreuir/.cache/qt-installer-framework/f9bc0262-152c-3eb5-a9c8-2a318bd7d544/cache.lock\\\": Resource temporarily unavailable\n
+[16651] Warning: qt.qpa.plugin: Could not find the Qt platform plugin "wayland" in ""
+qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "stateChanged"
+qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "connectivityChanged"
+qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "deviceTypeChanged"
+qt.dbus.integration: Could not connect "org.freedesktop.NetworkManager" to "meteredChanged"
+
+[16651] Done
+[16651] backup ru.qreal.root operation: Execute
+[16651] 	- arguments: bash, -c, LD_LIBRARY_PATH=/home/ntyrreuir/TRIKStudio/ /home/ntyrreuir/TRIKStudio//trik-studio --platform minimal --clear-conf
+[16651] Done
+[16652] perform ru.qreal.root operation: Execute
+[16652] 	- arguments: bash, -c, LD_LIBRARY_PATH=/home/ntyrreuir/TRIKStudio/ /home/ntyrreuir/TRIKStudio//trik-studio --platform minimal --clear-conf
+[16652] bash" started, arguments: "-c LD_LIBRARY_PATH=/home/ntyrreuir/TRIKStudio/ /home/ntyrreuir/TRIKStudio//trik-studio --platform minimal --clear-conf
+[16654] Warning: /usr/bin/bash: line 1: /home/ntyrreuir/TRIKStudio//trik-studio: No such file or directory
+
+[16655] Done
+[16655] Operation \"Execute\" with arguments \"bash; -c; LD_LIBRARY_PATH=@TargetDir@ @TargetDir@/trik-studio --platform minimal --clear-conf\" failed: Execution failed (Unexpected exit code: 127): \"bash -c LD_LIBRARY_PATH=/home/ntyrreuir/TRIKStudio/ /home/ntyrreuir/TRIKStudio//trik-studio --platform minimal --clear-conf\"
+[16655] installationErrorWithCancel : Installer Error : Error during installation process (ru.qreal.root):
+Execution failed (Unexpected exit code: 127): "bash -c LD_LIBRARY_PATH=/home/ntyrreuir/TRIKStudio/ /home/ntyrreuir/TRIKStudio//trik-studio --platform minimal --clear-conf" Retry|Ignore|Cancel
+[18111] backup ru.qreal.root operation: License
+[18111] 	- arguments:
+[18111] Done
+[18111] perform ru.qreal.root operation: License
+[18111] 	- arguments:
+[18112] Done
+[18113] Installing component Kernel components
+[18118] backup ru.qreal.root.trik_studio_kernel operation: License
+[18118] 	- arguments:
+[18118] Done
+[18118] perform ru.qreal.root.trik_studio_kernel operation: License
+[18118] 	- arguments:
+[18118] Done
+[18124] Installing component Lego EV3 Support
+[18126] backup ru.qreal.root.ev3 operation: License
+[18126] 	- arguments:
+[18126] Done
+[18126] perform ru.qreal.root.ev3 operation: License
+[18126] 	- arguments:
+[18126] Done
+[18131] Installing component Core TRIK support components
+[18132] backup ru.qreal.root.trik.core operation: License
+[18132] 	- arguments:
+[18132] Done
+[18132] perform ru.qreal.root.trik.core operation: License
+[18132] 	- arguments:
+[18133] Done
+[18153] Writing maintenance tool: "/home/ntyrreuir/TRIKStudio//maintenance.new"
+[18153] Writing maintenance tool.
+[18326] Wrote permissions for maintenance tool.
+[18343] Maintenance tool hard restart: false.
+[18344] Installation finished!
+[19235] Control script callback "FinishedPageCallback" does not exist.
+[20639] starting "bash" QList("/home/ntyrreuir/TRIKStudio//trik-studio")
