@@ -1,0 +1,21 @@
+INFO  2024-06-04T20:34:19.488 ------------------- APPLICATION STARTED -------------------- 
+INFO  2024-06-04T20:34:19.488 Version: "TRIK Studio (x86_64-little_endian-llp64) 2023.1-18-gbfaaf6" 
+INFO  2024-06-04T20:34:19.488 Running on "Windows 10 (10.0)" "x86_64" / Kernel:  "winnt" "10.0.22631" 
+INFO  2024-06-04T20:34:19.488 Arguments: ("C:\\TRIKStudio\\trik-studio.exe", "") 
+INFO  2024-06-04T20:34:19.488 "Using Qt::AA_EnableHighDpiScaling" 
+INFO  2024-06-04T20:34:19.789 MainWindow: screen DPI is 120 
+INFO  2024-06-04T20:34:20.249 Plugin manager for  QDir( "C:/TRIKStudio/plugins/editors" , nameFilters = { "*" },  QDir::SortFlags( Name | IgnoreCase ) , QDir::Filters( Dirs|Files|Drives|AllEntries ) ) with PATH= "C:\\Windows;C:\\Windows\\system32;" 
+INFO  2024-06-04T20:34:20.261 Plugin manager for  QDir( "C:/TRIKStudio/plugins/tools" , nameFilters = { "*" },  QDir::SortFlags( Name | IgnoreCase ) , QDir::Filters( Dirs|Files|Drives|AllEntries ) ) with PATH= "C:\\Windows;C:\\Windows\\system32;" 
+INFO  2024-06-04T20:34:20.268 Plugin manager for  QDir( "C:/TRIKStudio/plugins/tools/kitPlugins" , nameFilters = { "*" },  QDir::SortFlags( Name | IgnoreCase ) , QDir::Filters( Dirs|Files|Drives|AllEntries ) ) with PATH= "C:\\Windows;C:\\Windows\\system32;" 
+INFO  2024-06-04T20:34:20.460 Java test says: "" 
+INFO  2024-06-04T20:34:21.083 Starting TrikJavaScriptRunner worker thread QThread(0x8a39630) 
+INFO  2024-06-04T20:34:21.084 Starting TrikPythonRunner worker thread QThread(0x88572e0) 
+INFO  2024-06-04T20:34:21.084 Built with python: 3.8.10 "3080af0" 
+INFO  2024-06-04T20:34:21.084 Running with python: 3.8.10 (tags/v3.8.10:3d8993a, May  3 2021, 11:48:03) [MSC v.1928 64 bit (AMD64)] 
+INFO  2024-06-04T20:34:21.084 TRIK_PYTHONPATH : "C:/TRIKStudio/python-runtime;C:/TRIKStudio/python-runtime/python38.zip" 
+INFO  2024-06-04T20:34:21.144 PythonEngineWorker inited 
+INFO  2024-06-04T20:34:22.361 Initializing tool plugins... 
+WARN  2024-06-04T20:34:22.390 Can not create device "kitBase::robotModel::robotParts::MotorsAggregator" for port "MAll###output###MAll###" on "TwoDRobotModelForTrikV62RealRobotModel" 
+DEBUG 2024-06-04T20:34:22.570 Reloading 2D world model... 
+DEBUG 2024-06-04T20:34:22.571 Reloading 2D world done 
+INFO  2024-06-04T20:34:22.573 Initializing external tools from  "C:/TRIKStudio/externalToolsConfig" with ("trikKitExternalTools.xml") 
